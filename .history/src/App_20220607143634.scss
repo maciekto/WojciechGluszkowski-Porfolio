@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans&family=Maven+Pro:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap');
+
+.App {
+    width: 100vw;
+    height: auto;
+    font-family: 'Maven Pro', sans-serif;
+    &-Header {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+        font-size: 5vw;
+    }
+    &-Button {
+        transition: box-shadow 0.4s;
+        margin-top: 5vw;
+        width: 7vw;
+        height: 7vw;
+        box-shadow: 0px 0px 1px 2px black;
+        display: grid;
+        place-items: center;
+        border-radius: 50%;
+        cursor: pointer;
+        & i{
+            transition: font-size 0.4s;
+            font-size: 2vw;
+            animation: alarm 1s alternate infinite;
+            &:hover {
+                transition: font-size 0.4s;
+                font-size: 5vw;
+            }
+        }
+        &:hover {
+            transition: box-shadow 0.4s;
+            border: 0px solid black;
+            box-shadow: 0px 0px 1px 0px black;
+        }
+    }
+}
+
+@keyframes alarm {
+    from {
+        opacity: 0.2;
+    } to {
+        opacity: 1;
+    }
+}
