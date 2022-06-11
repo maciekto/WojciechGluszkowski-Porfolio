@@ -357,7 +357,7 @@
             }
             &-Item9 {
                 width: 49.5%;
-                background: url('assets/11-chemia-gospodarcza.jpg') center center no-repeat;
+                background: url('assets/9-kosmetyki.jpg') center center no-repeat;
             }
             &-Item10 {
                 width: 49.5%;
@@ -365,79 +365,68 @@
             }
             &-Item11 {
                 width: 100%;
-                background: url('assets/9-kosmetyki.jpg') center center no-repeat;
+                background: url('assets/11-chemia-gospodarcza.jpg') center center no-repeat;
                 height: 60vw;
             }
             &-Item12 {
                 width: 33%;
-                background: url('assets/12-ksiazki.jpg') 100% center no-repeat;
+                background: url('assets/12-ksiazki.jpg') center center no-repeat;
             }
             &-Item13 {
-                width: 100%;
+                width: 33%;
                 background: url('assets/13-ksiazki.jpg') center center no-repeat;
-                height: 60vw;
             }
             &-Item14 {
-                width: 66%;
+                width: 33%;
                 background: url('assets/14-ksiazki.jpg') center center no-repeat;
             }
             &-Item15 {
-                width: 49.5%;
-                background: url('assets/15-ksiazki.jpg') 0% center no-repeat;
+                width: 33%;
+                background: url('assets/15-ksiazki.jpg') center center no-repeat;
             }
             &-Item16 {
-                width: 100%;
+                width: 33%;
                 background: url('assets/16-wydawnictwo-muzyczne.jpg') center center no-repeat;
-                height: 80vw;
             }
             &-Item17 {
-                width: 49.5%;
-                background: url('assets/17-wydawnictwo-muzyczne.jpg') 100% center no-repeat;
+                width: 33%;
+                background: url('assets/17-wydawnictwo-muzyczne.jpg') center center no-repeat;
             }
             &-Item18 {
                 width: 33%;
-                background: url('assets/18-plakat.jpg') center 0% no-repeat;
-                height: 45vw;
+                background: url('assets/18-plakat.jpg') center center no-repeat;
             }
             &-Item19 {
                 width: 33%;
-                background: url('assets/19-plakat.jpg') center 0% no-repeat;
-                height: 45vw;
+                background: url('assets/19-plakat.jpg') center center no-repeat;
             }
             &-Item20 {
                 width: 33%;
-                background: url('assets/20-plakat.jpg') center 0% no-repeat;
-                height: 45vw;
+                background: url('assets/20-plakat.jpg') center center no-repeat;
             }
             &-Item21 {
-                width: 49.5%;
-                background: url('assets/21-plakat.jpg') center 0% no-repeat;
-                height: 75vw;
+                width: 33%;
+                background: url('assets/21-plakat.jpg') center center no-repeat;
             }
             &-Item22 {
-                width: 49.5%;
-                background: url('assets/22-plakat.jpg') center 0% no-repeat;
-                height: 75vw;
+                width: 33%;
+                background: url('assets/22-plakat.jpg') center center no-repeat;
             }
             &-Item23 {
-                width: 49.5%;
+                width: 33%;
                 background: url('assets/1-RYSUNEK.jpg') center center no-repeat;
-                height: 60vw;
             }
             &-Item24 {
-                width: 49.5%;
+                width: 33%;
                 background: url('assets/2-RYSUNEK.jpg') center center no-repeat;
-                height: 60vw;
             }
             &-Item25 {
-                width: 49.5%;
+                width: 33%;
                 background: url('assets/3-RYSUNEK.jpg') center center no-repeat;
-                height: 60vw;
             }
             &-Item26 {
-                width: 49.5%;
+                width: 33%;
                 background: url('assets/4-RYSUNEK.jpg') center center no-repeat;
-                height: 60vw;
             }
         }
         &-Popup {
@@ -446,7 +435,6 @@
             top: 0;
             left: 0;
             position: fixed;
-            
             width: 100vw;
             height: 100vh;
             background: #ffffffcc;
@@ -458,9 +446,8 @@
                 display: flex;
             }
             &-Image {
-                max-width: 90vw;
-                max-height: 90vh;
-
+                width: 40%;
+                max-height: 80vh;
             }
         }
     

@@ -8,9 +8,9 @@ import img5 from './assets/3-kosmetyki.jpg';
 import img6 from './assets/6-kosmetyki.jpg';
 import img7 from './assets/7-kosmetyki.jpg';
 import img8 from './assets/8-kosmetyki.jpg';
-import img9 from './assets/11-chemia-gospodarcza.jpg';
+import img9 from './assets/9-kosmetyki.jpg';
 import img10 from './assets/10-kosmetyki.jpg';
-import img11 from './assets/9-kosmetyki.jpg';
+import img11 from './assets/11-chemia-gospodarcza.jpg';
 import img12 from './assets/12-ksiazki.jpg';
 import img13 from './assets/13-ksiazki.jpg';
 import img14 from './assets/14-ksiazki.jpg';
@@ -46,16 +46,38 @@ function App() {
   const OpenPopup = (number) => {
     setPopup(Popup = 'App-Popup-Open')
     var images = [img1, img2, img3, img4, img5, img6, img7, img8, img9, img10, img11, img12, img13, img14,img15, img16, img17, img18, img19, img20, img21, img22, img23, img24, img25, img26]
-  
+    console.log(images)
+    console.log(number)
 
     for(let i in images) {
       if(i == number) {
-        setImage(Image = images[i])
+        setImage(Image = images[i-1])
+        console.log(i)
       }
     }
 
    
 
+    // switch(number){
+    //   case 1:
+    //     setImage(Image = img1)
+    //   break;
+    //   case 2:
+    //     setImage(Image = img2)
+    //   break;
+    //   case 3:
+    //     setImage(Image = img3)
+    //   break;
+    //   case 4:
+    //     setImage(Image = img4)
+    //   break;
+    //   case 5:
+    //     setImage(Image = img5)
+    //   break;
+    //   case 6:
+    //     setImage(Image = img6)
+    //   break;
+    // }
   }
   const ClosePopup = () => {
     setPopup(Popup = '')
@@ -72,105 +94,82 @@ function App() {
         
       </header>
       <main className={`App-Main ${MainShow}`}>
-      <div className='Title'>
-         Książki
-        </div>
-        <div className='App-Main-Item App-Main-Item13' onClick={() => OpenPopup(12)}>
-
-        </div>
-        <div className='App-Main-Item App-Main-Item14' onClick={() => OpenPopup(13)}>
-
-        </div>
-
-        <div className='App-Main-Item App-Main-Item12' onClick={() => OpenPopup(11)}>
-
-        </div>
-        
-        
-        <div className='App-Main-Item App-Main-Item15' onClick={() => OpenPopup(14)}>
-
-        </div>
-        <div className='App-Main-Item App-Main-Item17' onClick={() => OpenPopup(16)}>
-
-        </div>
-        <div className='App-Main-Item App-Main-Item16' onClick={() => OpenPopup(15)}>
-
-        </div>
-
-
-
-        <div className='Title'>
-          Kosmetyki
-        </div>
-        <div className='App-Main-Item App-Main-Item11' onClick={() => OpenPopup(10)}>
-
-</div>
-        <div className='App-Main-Item App-Main-Item1' onClick={() => OpenPopup(0)}>
+        <div className='App-Main-Item App-Main-Item1' onClick={() => OpenPopup(1)}>
           
         </div>
-        <div className='App-Main-Item App-Main-Item2' onClick={() => OpenPopup(1)}>
+        <div className='App-Main-Item App-Main-Item2' onClick={() => OpenPopup(2)}>
 
         </div>
-        <div className='App-Main-Item App-Main-Item3' onClick={() => OpenPopup(2)}>
+        <div className='App-Main-Item App-Main-Item3' onClick={() => OpenPopup(3)}>
 
         </div>
-        <div className='App-Main-Item App-Main-Item4' onClick={() => OpenPopup(3)}>
+        <div className='App-Main-Item App-Main-Item4' onClick={() => OpenPopup(4)}>
 
         </div>
-        <div className='App-Main-Item App-Main-Item5' onClick={() => OpenPopup(4)}>
+        <div className='App-Main-Item App-Main-Item5' onClick={() => OpenPopup(5)}>
 
         </div>
-        <div className='App-Main-Item App-Main-Item6' onClick={() => OpenPopup(5)}>
+        <div className='App-Main-Item App-Main-Item6' onClick={() => OpenPopup(6)}>
 
         </div>
-        <div className='App-Main-Item App-Main-Item7' onClick={() => OpenPopup(6)}>
+        <div className='App-Main-Item App-Main-Item7' onClick={() => OpenPopup(7)}>
 
         </div>
-        <div className='App-Main-Item App-Main-Item8' onClick={() => OpenPopup(7)}>
+        <div className='App-Main-Item App-Main-Item8' onClick={() => OpenPopup(8)}>
 
         </div>
-        <div className='App-Main-Item App-Main-Item9' onClick={() => OpenPopup(8)}>
+        <div className='App-Main-Item App-Main-Item9' onClick={() => OpenPopup(9)}>
 
         </div>
-        <div className='App-Main-Item App-Main-Item10' onClick={() => OpenPopup(9)}>
+        <div className='App-Main-Item App-Main-Item10' onClick={() => OpenPopup(10)}>
 
         </div>
-
-       
-
-       
-        
-        <div className='Title'>
-         Plakaty
-        </div>
-        <div className='App-Main-Item App-Main-Item18' onClick={() => OpenPopup(17)}>
+        <div className='App-Main-Item App-Main-Item11' onClick={() => OpenPopup(11)}>
 
         </div>
-        <div className='App-Main-Item App-Main-Item19' onClick={() => OpenPopup(18)}>
+        <div className='App-Main-Item App-Main-Item12' onClick={() => OpenPopup(12)}>
 
         </div>
-        <div className='App-Main-Item App-Main-Item20' onClick={() => OpenPopup(19)}>
+        <div className='App-Main-Item App-Main-Item13' onClick={() => OpenPopup(13)}>
 
         </div>
-        <div className='App-Main-Item App-Main-Item21' onClick={() => OpenPopup(20)}>
+        <div className='App-Main-Item App-Main-Item14' onClick={() => OpenPopup(14)}>
 
         </div>
-        <div className='App-Main-Item App-Main-Item22' onClick={() => OpenPopup(21)}>
+        <div className='App-Main-Item App-Main-Item15' onClick={() => OpenPopup(15)}>
 
         </div>
-        <div className='Title'>
-          Rysunki
-        </div>
-        <div className='App-Main-Item App-Main-Item23' onClick={() => OpenPopup(22)}>
+        <div className='App-Main-Item App-Main-Item16' onClick={() => OpenPopup(16)}>
 
         </div>
-        <div className='App-Main-Item App-Main-Item24' onClick={() => OpenPopup(23)}>
+        <div className='App-Main-Item App-Main-Item17' onClick={() => OpenPopup(17)}>
 
         </div>
-        <div className='App-Main-Item App-Main-Item25' onClick={() => OpenPopup(24)}>
+        <div className='App-Main-Item App-Main-Item18' onClick={() => OpenPopup(18)}>
 
         </div>
-        <div className='App-Main-Item App-Main-Item26' onClick={() => OpenPopup(25)}>
+        <div className='App-Main-Item App-Main-Item19' onClick={() => OpenPopup(19)}>
+
+        </div>
+        <div className='App-Main-Item App-Main-Item20' onClick={() => OpenPopup(20)}>
+
+        </div>
+        <div className='App-Main-Item App-Main-Item21' onClick={() => OpenPopup(21)}>
+
+        </div>
+        <div className='App-Main-Item App-Main-Item22' onClick={() => OpenPopup(22)}>
+
+        </div>
+        <div className='App-Main-Item App-Main-Item23' onClick={() => OpenPopup(23)}>
+
+        </div>
+        <div className='App-Main-Item App-Main-Item24' onClick={() => OpenPopup(24)}>
+
+        </div>
+        <div className='App-Main-Item App-Main-Item25' onClick={() => OpenPopup(25)}>
+
+        </div>
+        <div className='App-Main-Item App-Main-Item26' onClick={() => OpenPopup(26)}>
 
         </div>
       </main>

@@ -90,13 +90,6 @@ function App() {
         <div className='App-Main-Item App-Main-Item15' onClick={() => OpenPopup(14)}>
 
         </div>
-        <div className='App-Main-Item App-Main-Item17' onClick={() => OpenPopup(16)}>
-
-        </div>
-        <div className='App-Main-Item App-Main-Item16' onClick={() => OpenPopup(15)}>
-
-        </div>
-
 
 
         <div className='Title'>
@@ -139,7 +132,16 @@ function App() {
        
 
        
+       
+       
         
+       
+        <div className='App-Main-Item App-Main-Item17' onClick={() => OpenPopup(16)}>
+
+        </div>
+        <div className='App-Main-Item App-Main-Item16' onClick={() => OpenPopup(15)}>
+
+        </div>
         <div className='Title'>
          Plakaty
         </div>
@@ -157,9 +159,6 @@ function App() {
         </div>
         <div className='App-Main-Item App-Main-Item22' onClick={() => OpenPopup(21)}>
 
-        </div>
-        <div className='Title'>
-          Rysunki
         </div>
         <div className='App-Main-Item App-Main-Item23' onClick={() => OpenPopup(22)}>
 

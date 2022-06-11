@@ -158,9 +158,6 @@ function App() {
         <div className='App-Main-Item App-Main-Item22' onClick={() => OpenPopup(21)}>
 
         </div>
-        <div className='Title'>
-          Rysunki
-        </div>
         <div className='App-Main-Item App-Main-Item23' onClick={() => OpenPopup(22)}>
 
         </div>

@@ -8,9 +8,9 @@ import img5 from './assets/3-kosmetyki.jpg';
 import img6 from './assets/6-kosmetyki.jpg';
 import img7 from './assets/7-kosmetyki.jpg';
 import img8 from './assets/8-kosmetyki.jpg';
-import img9 from './assets/11-chemia-gospodarcza.jpg';
+import img9 from './assets/9-kosmetyki.jpg';
 import img10 from './assets/10-kosmetyki.jpg';
-import img11 from './assets/9-kosmetyki.jpg';
+import img11 from './assets/11-chemia-gospodarcza.jpg';
 import img12 from './assets/12-ksiazki.jpg';
 import img13 from './assets/13-ksiazki.jpg';
 import img14 from './assets/14-ksiazki.jpg';
@@ -72,39 +72,6 @@ function App() {
         
       </header>
       <main className={`App-Main ${MainShow}`}>
-      <div className='Title'>
-         Książki
-        </div>
-        <div className='App-Main-Item App-Main-Item13' onClick={() => OpenPopup(12)}>
-
-        </div>
-        <div className='App-Main-Item App-Main-Item14' onClick={() => OpenPopup(13)}>
-
-        </div>
-
-        <div className='App-Main-Item App-Main-Item12' onClick={() => OpenPopup(11)}>
-
-        </div>
-        
-        
-        <div className='App-Main-Item App-Main-Item15' onClick={() => OpenPopup(14)}>
-
-        </div>
-        <div className='App-Main-Item App-Main-Item17' onClick={() => OpenPopup(16)}>
-
-        </div>
-        <div className='App-Main-Item App-Main-Item16' onClick={() => OpenPopup(15)}>
-
-        </div>
-
-
-
-        <div className='Title'>
-          Kosmetyki
-        </div>
-        <div className='App-Main-Item App-Main-Item11' onClick={() => OpenPopup(10)}>
-
-</div>
         <div className='App-Main-Item App-Main-Item1' onClick={() => OpenPopup(0)}>
           
         </div>
@@ -135,13 +102,26 @@ function App() {
         <div className='App-Main-Item App-Main-Item10' onClick={() => OpenPopup(9)}>
 
         </div>
+        <div className='App-Main-Item App-Main-Item11' onClick={() => OpenPopup(10)}>
 
-       
+        </div>
+        <div className='App-Main-Item App-Main-Item12' onClick={() => OpenPopup(11)}>
 
-       
-        
-        <div className='Title'>
-         Plakaty
+        </div>
+        <div className='App-Main-Item App-Main-Item13' onClick={() => OpenPopup(12)}>
+
+        </div>
+        <div className='App-Main-Item App-Main-Item14' onClick={() => OpenPopup(13)}>
+
+        </div>
+        <div className='App-Main-Item App-Main-Item15' onClick={() => OpenPopup(14)}>
+
+        </div>
+        <div className='App-Main-Item App-Main-Item16' onClick={() => OpenPopup(15)}>
+
+        </div>
+        <div className='App-Main-Item App-Main-Item17' onClick={() => OpenPopup(16)}>
+
         </div>
         <div className='App-Main-Item App-Main-Item18' onClick={() => OpenPopup(17)}>
 
@@ -157,9 +137,6 @@ function App() {
         </div>
         <div className='App-Main-Item App-Main-Item22' onClick={() => OpenPopup(21)}>
 
-        </div>
-        <div className='Title'>
-          Rysunki
         </div>
         <div className='App-Main-Item App-Main-Item23' onClick={() => OpenPopup(22)}>
 
